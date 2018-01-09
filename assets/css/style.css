@@ -32,7 +32,7 @@ table {
 
 /*** Basics ***/
 body {
-	font-family: Verdana, serif;
+	font-family: "Fira Sans", Verdana, serif;
 	font-size: 13px;
 	line-height: 1.7;
 }
@@ -139,6 +139,10 @@ h3 {
 	margin: 0 auto;
 }
 
+#content > p {
+	font-family: "Source Serif Pro", Verdana, serif;
+}
+
 #sidebar {
 	position: absolute;
 	text-align: right;
@@ -154,7 +158,7 @@ h3 {
 
 #sidebar a {
 	border: none;
-	font-family: "Helvetica Neue", "Helvetica", serif;
+	font-family: "Fira Sans", "Helvetica Neue", "Helvetica", serif;
 	font-size: 1.2em;
 	padding: 2px 4px;
 }
@@ -188,6 +192,9 @@ article .meta {
 	font-size: 0.85em;
 	font-style: italic;
 }
+
+.post-content {
+	font-family: "Source Serif Pro", Verdana, serif;
 
 img.left {
 	float: left;
