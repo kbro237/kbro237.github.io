@@ -47,6 +47,10 @@ blockquote {
 
 
 /*** Pygments ***/
+
+.highlighter-rouge {
+	margin-bottom: 1em;
+}
 .highlight{
 	background-color: #eee8d5;
 	color: #657b83;
