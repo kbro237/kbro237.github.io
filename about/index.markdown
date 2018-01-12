@@ -7,4 +7,4 @@ I've been hesitating to put some words together because I can't really see the c
 
 Why would I put these disparate words together? Maybe if I could find a common theme that underlies them... What do they have in common? Nothing much. 
 
-Except me, I guess. Hi, I'm Keith. I'm a pastor and also a person in Tampa Bay, Florida. I've written in bursts through the years. I also write a lot of sermons, but I won't put those all here. Try [here](http://sermons.netfull.org) for those. I have...concerns with the big social media corporations but you could probably find me if you look hard enough. 
+<img src="{{ "/images/instakeith.jpg" | prepend: site.baseurl }}" class="right" style="width: 25%"/> Except me, I guess. Hi, I'm Keith. I'm a pastor and also a person in Tampa Bay, Florida. I've written in bursts through the years. I also write a lot of sermons, but I won't put those all here. Try [here](http://sermons.netfull.org) for those. I have...concerns with the big social media corporations but you could probably find me if you look hard enough. 
