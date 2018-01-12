@@ -16,7 +16,9 @@ title: net full of fish
     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		{% endif %}
 
-		<div class="post-content">{{ post.content }}</div>
+		<div class="post-date">{{ post.date | date: "%b %d, %Y" }}</div>
+
+		<div class="post-content clear">{{ post.content }}</div>
 
 	</article>
 

@@ -48,6 +48,10 @@ blockquote {
 	border-color: #eee8d5;
 }
 
+.post-date {
+	color: #2aa198;
+}
+
 
 
 /*** Pygments ***/

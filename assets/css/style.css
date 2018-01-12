@@ -176,6 +176,7 @@ article {
 article h1 {
 	font-size: 17px;
 	margin: 0 0 10px 0;
+	float: left;
 }
 article h1 a {
 	border: none;
@@ -194,6 +195,10 @@ article .meta {
 	padding-top: 6px;
 	font-size: 0.85em;
 	font-style: italic;
+}
+
+.post-date {
+	text-align: right;
 }
 
 .post-content {
