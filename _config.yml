@@ -1,6 +1,6 @@
 name: Net Full of Fish
 baseurl: /solar-theme-jekyll
-description:
+description: ''
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
