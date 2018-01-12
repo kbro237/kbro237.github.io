@@ -9,8 +9,8 @@ title: Archives
 		<article class="post">
 			{% if post.external-url %}
 				<h1>
-					<a href="{{ post.external-url }}">{{ post.title }}</a> 
-					<a class="anchor" href="{{ post.url | prepend: site.baseurl }}">&#9875;</a>
+					<a href="{{ post.external-url }}">{{ post.title }}</a>
+					<a class="anchor" href="{{ site.baseurl }}{{ post.url }}"><i class="icon-anchor"></i></a>
 				</h1>
 			{% else %}
 				<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
