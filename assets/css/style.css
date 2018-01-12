@@ -121,6 +121,9 @@ h3 {
 #header h1 {
 	font-size: 32px;
 	margin-bottom: 4px;
+	text-transform: lowercase;
+	letter-spacing: -4px;
+	font-style: italic;
 }
 #header h1 a {
 	border: none;
