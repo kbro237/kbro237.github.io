@@ -15,7 +15,7 @@ And I was ready for it. Doing a lot of cycling in those days, I could put away s
 
 By chance, I happened to cross paths with Sonny himself as I was delicately navigating the crowded barn. He looked down at my overloaded plate and then at the 150 pound awkward 18-year-old holding it and said, in at least six syllables of deep southern drawl, "Hungry, boy?"
 
-I grinned sheepishly and said, Yeah."
+I grinned sheepishly and said, "Yeah."
 
 He said, "You better finish that plate, you hear?"
 
