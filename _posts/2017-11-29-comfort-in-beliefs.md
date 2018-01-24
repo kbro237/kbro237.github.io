@@ -4,7 +4,7 @@ title: Comfort in Beliefs
 author: Keith Walbolt
 date: 2017-11-29
 categories:
-tags: god
+tags: faith
 ---
 
 I think there's a difference between taking comfort in my beliefs and taking comfort in *my own understanding* of my beliefs.

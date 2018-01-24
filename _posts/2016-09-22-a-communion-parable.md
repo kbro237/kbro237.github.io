@@ -2,7 +2,7 @@
 title: A Communion Parable
 author: Keith Walbolt
 date: September 22, 2016
-tags: god
+tags: faith
 layout: post
 ---
 
