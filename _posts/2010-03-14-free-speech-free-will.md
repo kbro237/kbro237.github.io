@@ -1,7 +1,7 @@
 ---
 title: Free Speech, Free Will
 author: Keith Walbolt
-date: 2010-03-14
+date: 2010-03-14 00:02:00
 tags: faith 
 layout: post
 ---

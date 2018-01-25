@@ -1,7 +1,7 @@
 ---
 title: Message and Medium
 author: Keith Walbolt
-date: 2010-03-14 
+date: 2010-03-14 00:01:00
 tags: faith
 layout: post
 ---
