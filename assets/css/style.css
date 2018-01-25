@@ -33,8 +33,8 @@ table {
 /*** Basics ***/
 body {
 	font-family: "Fira Sans", Verdana, serif;
-	font-size: 13px;
-	line-height: 1.7;
+	font-size: 1em;
+	line-height: 1.4em;
 }
 
 a, a:active, a:visited {
@@ -64,9 +64,9 @@ blockquote {
     margin: 22px 22px;
     padding: 0 20px;
     border-left: 2px solid #000000;
-    font-size: 1.2em;
+    font-size: 1em;
     font-style: italic;
-    line-height: 1.5em;
+    line-height: 1.3em;
 }
 
 acronym, abbr {
@@ -77,15 +77,15 @@ acronym, abbr {
 
 
 h1 {
-	font-size: 17px;
-	margin: 0 0 10px 0;
+	font-size: 1.5em;
+	margin: 0 0 1em 0;
 }
 h2 {
-	font-size: 15px;
+	font-size: 1.3em;
 	margin: 0 0 10px 0;
 }
 h3 {
-	font-size: 14px;
+	font-size: 1em;
 	margin: 0 0 10px 0;
 }
 
@@ -119,8 +119,9 @@ h3 {
 	margin: 40px auto 50px auto;
 }
 #header h1 {
-	font-size: 32px;
-	margin-bottom: 4px;
+	font-size: 2.5em;
+	margin-left: -.2em;
+	margin-bottom: 2em;
 	text-transform: lowercase;
 	letter-spacing: -4px;
 	font-style: italic;
@@ -156,7 +157,7 @@ h3 {
 
 #sidebar li {
 	list-style: none;
-	margin: 2px 0;
+	margin: 2px 0 .5em;
 }
 
 #sidebar a {
@@ -164,6 +165,10 @@ h3 {
 	font-family: "Fira Sans", "Helvetica Neue", "Helvetica", serif;
 	font-size: 1.2em;
 	padding: 2px 4px;
+}
+
+#blog-archives h1 {
+	font-size: 1em;
 }
 
 
@@ -174,8 +179,8 @@ article {
 }
 
 article h1 {
-	font-size: 17px;
-	margin: 0 0 10px 0;
+	font-size: 1.5em;
+	margin: 0 0 1.5em 0;
 	float: left;
 }
 article h1 a {
@@ -199,6 +204,7 @@ article .meta {
 
 .post-date {
 	text-align: right;
+	font-size: .9em;
 }
 
 .post-content {
