@@ -39,6 +39,10 @@ blockquote {
 	color: #2aa198;
 }
 
+#content > p {
+	color: #586e75;
+}
+
 #sidebar a:hover {
 	color: #2aa198;
 	background-color: #eee8d5;
@@ -46,6 +50,10 @@ blockquote {
 
 #footer {
 	border-color: #eee8d5;
+}
+
+.post-content {
+	color: #586e75;
 }
 
 .post-date {
