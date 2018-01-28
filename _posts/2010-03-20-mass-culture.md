@@ -15,5 +15,5 @@ On the movies of Clint Eastwood, by *The New Yorker:*
 > popular, in part, because he allowed people to dream that they could
 > be effective without being nice.
 
-What does our mass culture desire today? Winning arguments and passing  
+What does our mass culture desire today? Winning arguments and passing
 judgment according to cable news and reality television...
