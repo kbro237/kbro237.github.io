@@ -2,6 +2,7 @@
 title: The Greater Evil
 author: Keith Walbolt
 date: September 30, 2016
+layout: post
 tags: society
 ---
 
