@@ -3,6 +3,7 @@ baseurl: ''
 description: ''
 author:
     name: 'Keith Walbolt'
+    url: www.netfull.org/about
 
 permalink: /:year/:month/:day/:title/
 paginate: 10

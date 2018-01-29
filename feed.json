@@ -13,8 +13,8 @@ layout: null
     {% if site.author %}
     "author": {% if site.author.name %} {
         "name": "{{ site.author.name }}",
-        "url": {% if site.author.url %}"{{ site.author.url }}"{% else %}null{% endif %},
-        "avatar": {% if site.author.avatar %}"{{ site.author.avatar }}"{% else %}null{% endif %}
+        "url": {% if site.author.url %}"{{ site.author.url }}"{% else %}null{% endif %}{% if site.author.avatar %},
+        "avatar": "{{ site.author.avatar }}"{% endif %}
     },{% else %}"{{ site.author }}",{% endif %}
     {% endif %}
 "items": [
@@ -22,7 +22,7 @@ layout: null
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             "title": {{ post.title | jsonify }},
-            "summary": {{ post.seo_description | jsonify }},
+			{% if post.seo_description %}"summary": {{ post.seo_description | jsonify }},{% endif %}
             "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
             "content_html": {{ post.content | strip_newlines | jsonify }},
             "url": "{{ post.url | absolute_url }}",
@@ -40,18 +40,18 @@ layout: null
             {% if post.author %}
                 "author": {% if post.author.name %} {
                 "name": "{{ post.author.name }}",
-                "url": {% if post.author.url %}"{{ post.author.url }}"{% else %}null{% endif %},
-                "avatar": {% if post.author.avatar %}"{{ post.author.avatar }}"{% else %}null{% endif %}
+                "url": {% if post.author.url %}"{{ post.author.url }}"{% else %}null{% endif %}{% if post.author.avatar %},
+                "avatar": "{{ post.author.avatar }}"{% else %}{% endif %}
                 }
-                {% else %}"{{ post.author }}"{% endif %}
+                {% else %}{"name": "{{ post.author }}"}{% endif %}
             {% else %}
                 "author": {% if site.author.name %} {
                 "name": "{{ site.author.name }}",
-                "url": {% if site.author.url %}"{{ site.author.url }}"{% else %}null{% endif %},
-                "avatar": {% if site.author.avatar %}"{{ site.author.avatar }}"{% else %}null{% endif %}
+                "url": {% if site.author.url %}"{{ site.author.url }}"{% else %}null{% endif %}{% if site.author.avatar %},
+                "avatar": "{{ site.author.avatar }}"{% else %}{% endif %}
                 }
                 {% else %}
-                "{{ site.author }}"
+				{"name": "{{ site.author }}"}
                 {% endif %}
             {% endif %}
         }{% if forloop.last == false %},{% endif %}
