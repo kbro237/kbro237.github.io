@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: default
 title:  Microblog
 permalink: /microblog/
 ---
 
 <section class="microblog-posts">
+	<h1>Microblog Posts</h1>
   {% for post in site.microblog reversed %}
     <div class="microblog-post">
       {{ post.content }}
