@@ -9,4 +9,3 @@ highlighter: rouge
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 plugins:
     - jekyll-paginate
-    - jekyll-json-feed
