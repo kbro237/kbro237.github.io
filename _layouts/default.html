@@ -18,7 +18,9 @@
   <link href="{{ "/assets/css/colors-light.css" | prepend: site.baseurl }}" rel="stylesheet" />
   <link href="{{ "/assets/css/microblog.css" | prepend: site.baseurl }}" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Source+Serif+Pro" rel="stylesheet">
-  <link rel="alternate" type="application/rss+xml" href="{{site.baseurl }}/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS Posts" href="{{site.baseurl }}/feed.xml">
+  <link rel="alternate" type="application/json" title="JSON Posts" href="{{site.baseurl }}/feed.json">
+  <link rel="alternate" type="application/json" title="JSON Microblog Posts" href="{{site.baseurl }}/microblog-feed.json">
   <link href="https://micro.blog/kwlblt" rel="me" />
 
 </head>
@@ -61,7 +63,7 @@
 
 
   <footer id="footer">
-    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} // <a href="https://github.com/kbro237/solar-theme-jekyll">Source</a> // <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a></p>
+    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} // <a href="https://github.com/kbro237/solar-theme-jekyll">Source</a> // <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a> // <a href="{{ "/feed.json" | prepend: site.baseurl }}">JSON Feed</a></p>
   </footer>
 
 
