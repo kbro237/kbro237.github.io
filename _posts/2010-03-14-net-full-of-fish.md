@@ -7,11 +7,11 @@ layout: post
 ---
 
 
-> Just after daybreak, Jesus stood on the beach; but the disciples did
-> not know that it was Jesus. Jesus said to them, "Children, you have no
-> fish, have you?" They answered him, "No." He said to them, "Cast the
-> net to the right side of the boat, and you will find some." So they
-> cast it, and now they were not able to haul it in because there were
+> Just after daybreak, Jesus stood on the beach; but the disciples did 
+> not know that it was Jesus. Jesus said to them, "Children, you have no 
+> fish, have you?" They answered him, "No." He said to them, "Cast the 
+> net to the right side of the boat, and you will find some." So they 
+> cast it, and now they were not able to haul it in because there were 
 > so many fish.
 >
 > *John 21:4-6*
