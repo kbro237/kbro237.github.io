@@ -1,6 +1,8 @@
 title: Net Full of Fish
 baseurl: ''
 description: ''
+author:
+    name: 'Keith Walbolt'
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
