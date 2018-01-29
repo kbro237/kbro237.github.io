@@ -211,6 +211,10 @@ article .meta {
 	font-family: "Source Serif Pro", Verdana, serif;
 }
 
+p.description {
+	margin-bottom: 3em;
+}
+
 img.left {
 	float: left;
 	margin: 0 1em 1em 0;
