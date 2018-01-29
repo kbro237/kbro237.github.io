@@ -56,6 +56,10 @@ blockquote {
 	color: #586e75;
 }
 
+.microblog-post > p {
+	color: #586e75;
+}
+
 .post-date {
 	color: #2aa198;
 }
