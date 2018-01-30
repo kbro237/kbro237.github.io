@@ -10,7 +10,7 @@ Here's how I post blog posts to `www.netfull.org` and microblog posts to `www.ne
 
 My blog, this blog, which is trying to tie together the various threads I'm interested in, is now hosted on [Github Pages](https://pages.github.com). It's a static site built by [Jekyll](https://jekyllrb.com/) which means that Github builds it automatically every time I update the files.
 
-The nice thing about building the site this way is it's always under version control so there's always a trail of bread crumbs back to fix any previous version of the site when I regularly make mistakes coding it. Also, the source is public so you can [see](https://github.com/kbro237/kbro237.github.io) the mistakes yourself.
+The nice thing about building the site this way is it's always under version control so there's always a trail of bread crumbs back to any previous version of the site. I can revert back in time to fix the mistakes I regularly make while coding it. Also, the source is public so you can [see](https://github.com/kbro237/kbro237.github.io) the mistakes yourself.
 
 
 I've been intrigued by Manton Reese's [Micro.blog](https://micro.blog) project as an independent way to publish little thoughts and to have a little dialogue back and forth. Like the way I  once thought Twitter should work, but without all the baggage. Twitter's annoying attempts at monetization are understandable; Twitter's enabling of White Supremacy, misogyny, and genocidal nuclear threats are unconscionable.
