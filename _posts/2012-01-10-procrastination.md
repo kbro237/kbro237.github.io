@@ -2,7 +2,7 @@
 title: Four Reasons Why I Procrastinate
 author: Keith Walbolt
 date: 2012-01-10 
-tags: me
+tags: me productivity
 layout: post
 ---
 
