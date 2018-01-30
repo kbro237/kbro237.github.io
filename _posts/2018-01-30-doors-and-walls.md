@@ -1,7 +1,7 @@
 ---
 title: Doors and Walls
 author: Keith Walbolt
-date: 2018-01-30 
+date: '2018-01-30 10:45'
 tags: me
 layout: post
 ---
