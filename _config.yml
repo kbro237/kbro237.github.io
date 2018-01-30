@@ -1,6 +1,7 @@
 title: Net Full of Fish
 baseurl: ''
 description: ''
+timezone: 'America/New_York'
 author:
     name: 'Keith Walbolt'
     url: www.netfull.org/about

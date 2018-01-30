@@ -34,8 +34,8 @@ layout: null
               "mime_type": "{{ post.enclosure_type }}",
               "size_in_bytes": "{{ post.enclosure_length }}"
             },{% endif %}
-            "date_published": "{{ post.date | date_to_xmlschema }}",
-            "date_modified": "{{ post.date | date_to_xmlschema }}",
+            "date_published": "{{ post.date | date_to_rfc822 }}",
+            "date_modified": "{{ post.date | date_to_rfc822 }}",
             {% if post.author %}
                 "author": {% if post.author.name %} {
                 "name": "{{ post.author.name }}",
