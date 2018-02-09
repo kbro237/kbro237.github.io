@@ -2,7 +2,7 @@
 title: Explicit Bias
 author: Keith Walbolt
 date: '2018-02-09 12:06'
-tags: 
+tags: society faith me
 layout: post
 ---
 
