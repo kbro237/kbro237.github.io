@@ -12,11 +12,13 @@ title: net full of fish
 				<a href="{{ post.external-url }}">{{ post.title }}</a>
         <a class="anchor" href="{{ site.baseurl }}{{ post.url }}"><i class="icon-anchor"></i></a>
 			</h1>
+		{% elsif post.layout == 'microblog-post' %}
+
 		{% else %}
-    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		{% endif %}
 
-		<div class="post-date">{{ post.date | date: "%b %d, %Y" }}</div>
+		<div class="post-date"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%b %d, %Y" }}</div>
 
 		<div class="post-content clear">{{ post.content }}</div>
 

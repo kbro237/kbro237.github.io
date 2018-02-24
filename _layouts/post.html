@@ -8,8 +8,10 @@ layout: default
 			<a href="{{ page.external-url }}">{{ page.title }}</a> 
 			<a class="anchor" href="{{ site.baseurl }}{{ page.url }}"><i class="icon-anchor"></i></a>
 		</h1>
-	{% else %}
+	{% else page.title %}
 		<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
+	{% else %}
+
 	{% endif %}
 
 	<div class="post-content clear">{{ content }}</div>
