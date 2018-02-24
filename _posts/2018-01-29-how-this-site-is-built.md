@@ -19,3 +19,5 @@ I really recommend you give it a try. I also recommend you pay a few dollars a m
 
 
 For now 'microblog' posts, which you can think of like Tweets, don't show up in the main JSON/RSS feed or on the homepage. Instead, they live on the [Microblog](/microblog) part of my site. To get that set up, I relied heavily on excellent posts by [Tim Smith](https://brightlycolored.org/2017/02/creating-a-microblog-with-jekyll/), [Ross Kimes](http://rosskimes.net/2018/01/microblog/), and [Kirby Turner](https://www.thecave.com/2017/04/21/how-i-post-to-my-jekyll-site-using-my-iphone/). You make fewer mistakes when you stand on the shoulders of others.
+
+**Update:** I'm now putting my microblog posts into the same stream as my blog posts. This required some pretty major changes to the structure of the site since my plugin options are limited on Github Pages. You can now subscribe to full posts, microblog posts, or both.
