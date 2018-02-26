@@ -6,6 +6,7 @@ title: Archives
 <div id="blog-archives">
 
 	{% for post in site.posts %}
+	{% unless post.layout == 'microblog-post' %}
 		<article class="post">
 			{% if post.external-url %}
 				<h1>
@@ -19,6 +20,7 @@ title: Archives
 			<div class="post-date">{{ post.date | date: "%b %d, %Y" }}</div>
 
 		</article>
+	{% endunless %}
 	{% endfor %}
 
 </div>
