@@ -4,8 +4,8 @@ layout: null
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "{{ site.title | xml_escape }} Microblog",
-    "home_page_url": "{{ "/" | absolute_url }}microblog",
     "feed_url": "{{ "/microblog-feed.json" | absolute_url }}",
+    "home_page_url": "{{ "/" | absolute_url }}",
     "description": {{ site.description | jsonify }},
     "icon": "{{ "/apple-touch-icon.png" | absolute_url }}",
     "favicon": "{{ "/favicon.ico" | absolute_url }}",
@@ -18,7 +18,8 @@ layout: null
     },{% else %}"{{ site.author }}",{% endif %}
     {% endif %}
 "items": [
-    {% for post in site.microblog reversed %}
+    {% for post in site.posts limit:100 %}
+	{% if post.layout == 'microblog-post' %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
 			{% if post.seo_description %}"summary": {{ post.seo_description | jsonify }},{% endif %}
@@ -54,6 +55,7 @@ layout: null
                 {% endif %}
             {% endif %}
         }{% if forloop.last == false %},{% endif %}
+	{% endif %}
     {% endfor %}
     ]
 }

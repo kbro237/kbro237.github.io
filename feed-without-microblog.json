@@ -19,11 +19,10 @@ layout: null
     {% endif %}
 "items": [
     {% for post in site.posts limit:100 %}
+	{% unless post.layout == 'microblog-post' %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
-			{% unless post.layout == 'microblog-post' %}
-				"title": {{ post.title | jsonify }},
-			{% endunless %}
+            "title": {{ post.title | jsonify }},
 			{% if post.seo_description %}"summary": {{ post.seo_description | jsonify }},{% endif %}
             "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
             "content_html": {{ post.content | strip_newlines | jsonify }},
@@ -57,6 +56,7 @@ layout: null
                 {% endif %}
             {% endif %}
         }{% if forloop.last == false %},{% endif %}
+	{% endunless %}
     {% endfor %}
     ]
 }

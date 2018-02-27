@@ -13,7 +13,9 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:100 %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
+		{% unless post.layout == 'microblog-post' %}
+			<title>{{ post.title | xml_escape }}</title>
+		{% endunless %}
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 		{% if post.external-url %}
