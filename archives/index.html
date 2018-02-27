@@ -7,7 +7,7 @@ title: Archives
 
 	{% for post in site.posts %}
 	{% unless post.layout == 'microblog-post' %}
-		<article class="post">
+		<article class="archive-post">
 			{% if post.external-url %}
 				<h1>
 					<a href="{{ post.external-url }}">{{ post.title }}</a>
