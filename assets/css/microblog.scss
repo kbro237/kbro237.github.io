@@ -25,7 +25,7 @@
   p {
     font-size: 2rem;
     line-height: 1.4;
-    margin: 0;
+    margin-bottom: 1em;
   }
   img {
     margin: 1rem auto;
@@ -39,5 +39,8 @@
   padding-top: .5rem;
   a {
     color: inherit;
+  }
+  p {
+	  font-size: inherit
   }
 }

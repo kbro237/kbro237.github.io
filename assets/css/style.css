@@ -175,7 +175,12 @@ h3 {
 
 /*** Posts ***/
 article {
-	margin-bottom: 40px;
+	margin-top: 6em;
+	margin-bottom: 6em;
+}
+
+article:first-of-type {
+	margin-top: 1em;
 }
 
 article h1 {
@@ -205,10 +210,22 @@ article .meta {
 .post-date {
 	text-align: right;
 	font-size: .9em;
+	margin-bottom: 1em;
+	margin-top: 2em;
 }
 
 .post-content {
 	font-family: "Source Serif Pro", Verdana, serif;
+}
+
+.microblog-post {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.archive-post {
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 p.description {
