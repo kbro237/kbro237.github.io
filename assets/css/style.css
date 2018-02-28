@@ -216,6 +216,8 @@ article .meta {
 
 .post-content {
 	font-family: "Source Serif Pro", Verdana, serif;
+	border-bottom: 2px dotted #eee8d5;
+	padding-bottom: 1rem;
 }
 
 .microblog-post {

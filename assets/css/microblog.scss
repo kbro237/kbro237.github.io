@@ -6,8 +6,6 @@
 // -------------------------------
 
 .microblog-post:not(:last-of-type) {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 1rem;
   margin-bottom: 1rem;
   p:last-of-type {
     margin: 0;
