@@ -7,7 +7,7 @@ author:
     url: www.netfull.org/about
 
 permalink: /:year/:month/:day/:title/
-paginate: 10
+paginate: 15
 highlighter: rouge
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
