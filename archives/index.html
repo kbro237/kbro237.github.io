@@ -6,7 +6,7 @@ title: Archives
 <div id="blog-archives">
 
 	{% for post in site.posts %}
-	{% unless post.layout == 'microblog-post' %}
+	{% unless post.layout == 'micropubpost' %}
 		<article class="archive-post">
 			{% if post.external-url %}
 				<h1>
