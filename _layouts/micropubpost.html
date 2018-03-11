@@ -3,6 +3,14 @@ layout: default
 ---
 
 <div class="microblog-post--single">
+
+	{% if page.mf-photo != null %}
+	<div class="media">
+		{% for photo in page.mf-photo %}
+		<img class="u-photo" src="{{photo}}" alt="" />
+		{% endfor %}
+	</div>
+	{% endif %}
   {{ content }}
 </div>
 <footer class="microblog-post__footer">
