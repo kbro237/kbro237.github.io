@@ -253,6 +253,15 @@ article .meta {
 	margin-top: 1em;
 }
 
+.media {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.u-photo {
+	width: 100%;
+}
+
 p.description {
 	margin-bottom: 3em;
 }
