@@ -21,12 +21,15 @@ layout: null
     {% for post in site.posts limit:100 %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
-			{% unless post.layout == 'microblog-post' %}
+			{% unless post.layout == 'micropubpost' %}
 				"title": {{ post.title | jsonify }},
 			{% endunless %}
 			{% if post.seo_description %}"summary": {{ post.seo_description | jsonify }},{% endif %}
+			{% capture html %}
+			{% include micropubpost.html %}
+			{% endcapture %}
             "content_text": {{ post.content | strip_html | strip_newlines | jsonify }},
-            "content_html": {{ post.content | strip_newlines | jsonify }},
+            "content_html": {{ post.content | append: html | strip_newlines | jsonify }},
             "url": "{{ post.url | absolute_url }}",
             {% if post.image.size > 1 %}"image": {{ post.image | jsonify }},{% endif %}
             {% if post.external-url %}"external_url": "{{ post.external-url }}",{% endif %}

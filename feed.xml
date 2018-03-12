@@ -13,10 +13,13 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:100 %}
       <item>
-		{% unless post.layout == 'microblog-post' %}
+		{% unless post.layout == 'micropubpost' %}
 			<title>{{ post.title | xml_escape }}</title>
 		{% endunless %}
-        <description>{{ post.content | xml_escape }}</description>
+		{% capture html %}
+		{% include micropubpost.html %}
+		{% endcapture %}
+        <description>{{ post.content | append: html | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 		{% if post.external-url %}
         <link>{{ post.external-url }}</link>

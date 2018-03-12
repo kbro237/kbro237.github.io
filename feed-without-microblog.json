@@ -19,7 +19,7 @@ layout: null
     {% endif %}
 "items": [
     {% for post in site.posts limit:100 %}
-	{% unless post.layout == 'microblog-post' %}
+	{% unless post.layout == 'micropubpost' %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             "title": {{ post.title | jsonify }},
