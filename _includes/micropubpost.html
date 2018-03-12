@@ -1,0 +1,8 @@
+{% assign post = include.post %}
+{% if post.mf-photo != null %}
+<div class="media">
+	{% for photo in post.mf-photo %}
+	<img class="u-photo" src="{{photo}}" alt="" />
+	{% endfor %}
+</div>
+{% endif %}

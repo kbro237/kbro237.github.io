@@ -8,13 +8,7 @@ title: Net Full of Fish
 	{% if post.layout == 'micropubpost' %}
 	<article class="microblog-post">
 		<div class="post-date"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%b %d, %Y &nbsp; %H:%M" }}</a></div>
-		{% if post.mf-photo != null %}
-		<div class="media">
-			{% for photo in post.mf-photo %}
-			<img class="u-photo" src="{{photo}}" alt="" />
-			{% endfor %}
-		</div>
-		{% endif %}
+		{% include micropubpost.html post=page %}
 		<div class="post-content clear">{{ post.content }}</div>
 
 	</article>
