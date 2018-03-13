@@ -40,7 +40,7 @@ body {
 a, a:active, a:visited {
 	text-decoration: none;
 	border-bottom: 1px solid #839496;
-	padding-bottom: 2px;
+	/*padding-bottom: 2px;*/
 }
 a:hover {
 	background-color: #839496;
@@ -53,8 +53,9 @@ ol li, ul li { margin-top: 10px; margin-bottom: 10px; }
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
 small { font-size: 0.85em; }
-sup { vertical-align: super; font-size: 0.85em; }
-sub { vertical-align: sub; font-size: 0.85em; }
+sup { vertical-align: super; font-size: 0.85em; line-height: 0px; }
+sub { vertical-align: sub; font-size: 0.85em; line-height: 0px; }
+
 
 code {
     font: 0.85em Monaco, Courier, Monospace;
@@ -67,7 +68,7 @@ blockquote {
 	font-family: "Fira Sans", "Helvetica Neue", "Helvetica", serif;
     font-size: 1em;
     font-style: italic;
-    line-height: 1.3em;
+    line-height: 1.4em;
 }
 
 acronym, abbr {
