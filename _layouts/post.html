@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post h-entry">
 
 	{% if page.external-url %}
-		<h1>
+		<h1 class="p-name">
 			<a href="{{ page.external-url }}">{{ page.title }}</a> 
-			<a class="anchor" href="{{ site.baseurl }}{{ page.url }}"><i class="icon-anchor"></i></a>
+			<a class="anchor u-url" href="{{ site.baseurl }}{{ page.url }}"><i class="icon-anchor"></i></a>
 		</h1>
 	{% else page.title %}
-		<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
+		<h1 class="p-name"><a class="u-url" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
 	{% else %}
 
 	{% endif %}
 
-	<div class="post-content clear">{{ content }}</div>
+	<div class="post-content clear e-content">{{ content }}</div>
 
-	<p class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span></p>
+	<p class="meta">Posted on <span class="postdate dt-published">{{ page.date | date: "%b %d, %Y" }}</span></p>
 
 </article>
